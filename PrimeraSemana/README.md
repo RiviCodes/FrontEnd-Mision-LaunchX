@@ -1,8 +1,8 @@
-# FrontEnd Mision - Primera Semana
+# FrontEnd Mision - Primera Semana 🚀
 
 Entregables de la primera semana para la misión FrontEnd de LaunchX.
 
-## Caso: Abogabot 
+## Caso: Abogabot 🤖
 
 Descripción: 
 
@@ -24,7 +24,7 @@ Descripción:
 
 - La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 
-**Practicas**
+**Practicas** 👨🏻‍💻
 
 - [Toma de requerimientos](./1.-requerimientos.md)
 - [Crea tu buyer persona](./2.-buyerPersona.md)

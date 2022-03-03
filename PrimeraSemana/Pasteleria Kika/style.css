@@ -21,7 +21,7 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-size: 46px;
   margin: 0;
-  padding-top: 14px;
+  padding-top: 20px;
 }
 
 #welcome-section {
@@ -35,11 +35,12 @@ h1 {
 
 h2 {
   margin: 0;
-  padding: 12px 30px;
+  margin-top: 20px;
+  padding: 10px 20px;
   border: 2px solid white;
-  border-radius: 20px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 10px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   font-family: 'Cookie', cursive;
   font-size: 40px;
   color: #f4ecff;
@@ -82,4 +83,87 @@ h2 {
   color: white;
   background-color: #f992ad;
   font-family: 'Fredoka', sans-serif;
+}
+
+/* Ornament Section */
+
+#ornament-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fadfec;
+  font-family: 'Fredoka', sans-serif;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+#ornament-section h3 {
+  font-size: 28px;
+  border-bottom: 4px solid #d5bcf0;
+  padding-bottom: 6px;
+  margin-bottom: 60px;
+}
+
+#ornament-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ornament-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 60px;
+}
+
+.ornament-card span {
+  font-size: 18px;
+}
+
+.ornament-card * {
+  padding-bottom: 18px ;
+}
+
+.ornament-card img {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100px;
+}
+
+/* Form Section */
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fredoka', sans-serif;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-color: #f8edf2;
+}
+
+#form-section h4 {
+  margin: 20px;
+  font-size: 26px;
+}
+
+#form-section h4 + h4 {
+  font-size: 24px;
+  border-bottom: 4px solid #f992ad;
+  padding-bottom: 2px;
+}
+
+#form-section > div {
+  padding-top: 10px;
+}
+
+textarea {
+  height: 100px;
+  width: 400px;
 }

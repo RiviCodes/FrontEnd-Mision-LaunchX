@@ -1,9 +1,9 @@
-# Prácticas HTML - Pastelería Kika
+# Prácticas HTML - Pastelería Kika 🍰
 
 Para la práctica de esta semana se tiene como objetivo maquetar en HTML el siguiente caso y generar el repositorio con el ejercicio.
 <br>
 
-## **Caso: Pastelería Kika**
+## **Caso: Pastelería Kika** 🎂
 <br>
 
 Descripción:<br>

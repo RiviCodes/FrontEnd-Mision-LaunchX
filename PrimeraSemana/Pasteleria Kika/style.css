@@ -1,4 +1,85 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body {
+  margin: 0;
+}
+
+#main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ffe7fd;
+  background-color: #9ba9ff;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 46px;
+  margin: 0;
+  padding-top: 14px;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(155,169,255,1) 0%, rgba(255,202,233,1) 100%);
+}
+
+h2 {
+  margin: 0;
+  padding: 12px 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+  color: #f4ecff;
+  background-color: #a480f2;
+}
+
+/* Flavors Section */
+
 #flavors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFCAE9;
+}
+
+#flavors-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#flavors-container img {
   height: auto;
-  width: 60px;
+  width: 80px;
+}
+
+#flavors-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 44px;
+}
+
+#flavors-container span {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: #f992ad;
+  font-family: 'Fredoka', sans-serif;
 }

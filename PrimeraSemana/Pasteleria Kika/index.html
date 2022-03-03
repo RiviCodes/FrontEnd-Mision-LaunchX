@@ -76,6 +76,104 @@
     </div>
   </section>
 
+  <section id="ornament-section">
+    <h3>¡Adorna tu pastel!</h3>
+
+    <div id="ornament-container">
+      <div class="ornament-card">
+        <img src="images/ornaments/layer-cake.png" alt="multi-capa">
+        <span>Pastel multi-capa</span>
+        <span>$80 c/capa</span>
+      </div>
+
+      <div class="ornament-card">
+        <img src="images/ornaments/bday-cake.png" alt="pastel-tematizado">
+        <span>Pastel tematizado</span>
+        <span>+ $150</span>
+      </div>
+
+      <div class="ornament-card">
+        <img src="images/ornaments/candles.png" alt="velas">
+        <span>Velas</span>
+        <span>$30 c/u</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form-section">
+    <h4>¿Te gustaría encargar un pastel con nosotros?</h4>
+    <h4>¡Házlo a través del siguiente formulario!</h4>
+    <div>
+      <label id="name-label" for="name">Nombre: </label>
+      <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+    </div>
+
+    <div>
+      <label for="phone">Teléfono: </label>
+      <input type="tel" id="phone" name="phone" placeholder="111-222-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required>
+    </div>
+
+    <div>
+      <label for="email">E-mail: </label>
+      <input type="email" id="email" pattern=".+@globex\.com" placeholder="correo@ejemplo.com" required>
+    </div>
+
+    <p>¡Elige tus sabores favoritos!</p>
+    <div for="strawberry">
+      <input type="checkbox" name="flavors" value="strawberry" class="input-checkbox">Fresa
+    </div>
+
+    <div for="caramel">
+      <input type="checkbox" name="flavors" value="caramel" class="input-checkbox">Caramelo
+    </div>
+
+    <div for="peanut">
+      <input type="checkbox" name="flavors" value="peanut" class="input-checkbox">Cacahuate
+    </div>
+
+    <div for="almond-and-vanilla">
+      <input type="checkbox" name="flavors" value="almond-and-vanilla" class="input-checkbox">Avellana & Vainilla
+    </div>
+
+    <div for="honey-and-vanilla">
+      <input type="checkbox" name="flavors" value="honey-and-vanilla" class="input-checkbox">Miel & Vainilla
+    </div>
+
+    <div for="walnut">
+      <input type="checkbox" name="flavors" value="walnut" class="input-checkbox">Nuez
+    </div>
+
+    <div for="cherry">
+      <input type="checkbox" name="flavors" value="cherry" class="input-checkbox">Cereza
+    </div>
+
+    <div for="chewing-gum">
+      <input type="checkbox" name="flavors" value="chewing-gum" class="input-checkbox">Chicle
+    </div>
+
+    <p>¡Agrega un adorno para tu pastel!</p>
+    <div for="layer-cake">
+      <input type="checkbox" name="ornaments" value="layer-cake" class="input-checkbox">Multi-capa
+    </div>
+
+    <div for="bday-cake">
+      <input type="checkbox" name="ornaments" value="bday-cake" class="input-checkbox">Tematizado
+    </div>
+
+    <div for="candles">
+      <input type="checkbox" name="ornaments" value="bday-cake" class="input-checkbox">Velas
+    </div>
+
+
+    <div>
+      <p id="p-suggestions">Descripción: </p>
+      <textarea id="comments" name="comments"
+        placeholder="¿Cómo deseas tu pastel? ¡Puedes escribir alguna sugerencia aquí!"></textarea>
+    </div>
+  </section>
+
 </body>
 
 </html>

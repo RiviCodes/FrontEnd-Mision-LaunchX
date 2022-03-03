@@ -23,6 +23,5 @@ En caso de que te quede corto el ejercicio siguele con esto!
 - Bonus de estilos (Intro a CSS)
 - Bonus de Rutas (Navegación en la página)
 - Bonus de despliegue (Montar la página en línea con dominio gratuito)
-<br>
 
-Credits: Huge THANK YOU to [Flaticon](https://www.flaticon.com/) for all the amazing royalty-free icons used in this project!
+*Credits*: Huge **THANK YOU** to [Flaticon](https://www.flaticon.com/) for all the amazing royalty-free icons used in this project!
